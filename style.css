@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,600;1,100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+
+}
+
+a {
+    text-decoration: none;
+    color: darkblue;
+    font-weight: 700;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    padding: 2.5rem;
+    overflow: hidden;
+}
+
+/* Left Side */
+.left-side {
+    flex: 2;
+    font-weight: 600;
+}
+
+.exp {
+    margin-top: 1rem;
+    color: rgb(66, 63, 243);
+
+}
+
+.catagory {
+    margin-top: .5rem;
+}
+
+
+.exp-list {
+    padding-left: 2.5rem;
+}
+
+.exp-list-item {
+    margin-top: .5rem;
+    font-size: small;
+    line-height: 1.3rem;
+    opacity: .65;
+}
+
+
+/* Right Side */
+
+.right-side {
+    flex: 1;
+    padding-left: .75rem;
+}
+
+.mobile {
+    font-weight: 700;
+}
+
+.github {
+    display: block;
+    font-size: small;
+}
+
+.skills {
+    margin-top: 3rem;
+    color: rgb(76, 74, 219);
+}
+
+.skill-set {
+    opacity: .8;
+}
+
+.education {
+    margin-top: 2rem;
+    color: rgb(76, 74, 219);
+}
+
+.interests {
+    color: rgb(76, 74, 219);
+    font-weight: bold;
+    margin-top: 1rem;
+}
